@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  color: #1f2937;
+}
+
+h1 { color: #1f3a5f; }
+
+form {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+input, textarea, button {
+  font: inherit;
+  padding: 0.5rem;
+}
+
+button {
+  background: #1f3a5f;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th { background: #1f3a5f; color: #fff; }
+
+.error { color: #b91c1c; font-weight: bold; }
